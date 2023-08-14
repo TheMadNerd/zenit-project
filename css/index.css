@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+
+* {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.menu {
+    padding: 21px 0 19px 24px;
+    display: flex;
+}
+
+.menu-left {
+    float: left;
+    display: flex;
+}
+
+.menu-right {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5% 0 0;
+    margin-left: auto;
+}
+
+.menu-right-buttons {
+    float: left;
+}
+
+.menu-right-media {
+    float: left;
+    display: flex;
+}
+
+.menu-right-buttons a {
+    padding: 0 30px 0 0;
+    color: #465867;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.big-images {
+    display: flex; 
+}
+
+.geodesy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geodesy img {
+    width: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.estate {
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.estate img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.geodesy-text {
+    position: absolute;  
+    align-self: center;
+    text-align: center;
+}
+
+.geodesy-text-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 22px 0;
+}
+
+.geodesy-text a{
+    border-radius: 10px;
+    background: #FF5635;
+    color: #FFF;
+    text-align: center;
+    font-family: Encode Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px 22px;
+}
+
+.about-us {
+    color: #465867;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10% 20% ;
+}
+
+.about-us-text {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.distinction {
+    background: rgba(221, 214, 213, 0.30);
+    color: #465867;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+}
+
+.distinction-about {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px; 
+}
+
+.distinction-text {
+    padding: 3% 0 3% 6%;
+    width: 40%;
+}
+
+.distinction-title {
+    padding: 0 0 15px 0;
+}
+
+.distinction img {
+    width: 30%;
+    margin: auto;
+    
+}
