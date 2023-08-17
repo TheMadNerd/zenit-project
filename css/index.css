@@ -197,6 +197,7 @@
     margin-top: 5%;
     background: rgba(221, 214, 213, 0.30);
     display: flex;
+    padding-bottom: 5%;
 }
 
 .offer-bg {
@@ -209,13 +210,105 @@
     color: #465867;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .offer-box {
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    display: inline-block;
-    float: left;
     width: 50%;
+    margin: 0 3% 3% 0;
 }
+
+.number {
+    color: #FF5635;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    padding: 4% 6%;
+}
+
+.line {
+    border-top: 2px solid;
+    width: 80%;
+    stroke-width: 2px;
+    margin: auto;
+}
+    
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+    stroke-width: 2px;
+    margin: auto;
+    
+  }
+
+  .offer-box-title {
+    color: #465867;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; 
+    padding: 0 6% 0 6%;
+  }
+
+  .offer-box ol {
+    color: #465867;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 5% 5% 10%;
+  }
+
+  .offer-box-flex {
+    display: flex;
+  }
+
+  .who-trusted-us {
+    overflow: hidden;
+    margin: 10% 0 10% 0;
+  }
+
+  .who-trusted-us-title {
+    color: #465867;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .who-trusted-us-boxes {
+    animation: RightToLeft 10s infinite linear;
+    display: flex;
+    width: 150%;
+    margin: 5%;
+  }
+
+  .who-trusted-us-box {
+    margin: 0px 60px;
+    padding: 4px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+
+  @keyframes RightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+  }
+
+  .who-trusted-us-box img{
+    width: 60%;
+    margin: auto;
+  }
+
+
+  
