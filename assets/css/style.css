@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap");
+.menu {
+  padding: 21px 0 19px 24px;
+  display: flex;
+}
+.menu .menu-left {
+  float: left;
+  display: flex;
+}
+.menu .menu-right {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5% 0 0;
+  margin-left: auto;
+}
+.menu .menu-right .menu-right-buttons {
+  float: left;
+}
+.menu .menu-right .menu-right-buttons a {
+  padding: 0 30px 0 0;
+  color: #465867;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.menu .menu-right .menu-right-media {
+  float: left;
+  display: flex;
+}
+
+.big-images {
+  display: flex;
+}
+.big-images .geodesy {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-images .geodesy img {
+  width: 100%;
+  filter: brightness(50%);
+  z-index: -1;
+}
+.big-images .geodesy .geodesy-text {
+  position: absolute;
+  align-self: center;
+  text-align: center;
+}
+.big-images .geodesy .geodesy-text .geodesy-text-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 0 22px 0;
+}
+.big-images .geodesy .geodesy-text a {
+  border-radius: 10px;
+  background: #FF5635;
+  color: #FFF;
+  text-align: center;
+  font-family: Encode Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px 22px;
+}
+.big-images .estate {
+  width: 50%;
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+.big-images .estate img {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+.big-images .estate .geodesy-text {
+  position: absolute;
+  align-self: center;
+  text-align: center;
+}
+.big-images .estate .geodesy-text .geodesy-text-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 0 22px 0;
+}
+.big-images .estate .geodesy-text a {
+  border-radius: 10px;
+  background: #FF5635;
+  color: #FFF;
+  text-align: center;
+  font-family: Encode Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px 22px;
+}
+
+.about-us {
+  color: #465867;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10% 20%;
+}
+.about-us .about-us-text {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.distinction {
+  background: rgba(221, 214, 213, 0.3);
+  color: #465867;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+}
+.distinction .distinction-text {
+  padding: 3% 0 3% 6%;
+  width: 40%;
+}
+.distinction .distinction-text .distinction-title {
+  padding: 0 0 15px 0;
+}
+.distinction .distinction-text .distinction-about {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.distinction img {
+  width: 40%;
+  margin: auto;
+  margin-top: -7px;
+  margin-bottom: -12px;
+  border-radius: 55% 5% 5% 5%;
+}
+
+.how-we-work {
+  display: flex;
+  margin-top: 10%;
+  color: #465867;
+}
+.how-we-work img {
+  width: 40%;
+  margin: auto;
+  border-radius: 55% 5% 5% 5%;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+.how-we-work .how-we-work-text {
+  margin: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+.how-we-work .how-we-work-text .how-we-work-title {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 0 10px 6px;
+}
+.how-we-work .how-we-work-text li {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  list-style-image: url(../images/check.svg);
+}
+.how-we-work .how-we-work-text li::marker {
+  margin-top: 100px;
+}
+.how-we-work .how-we-work-text p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.offer {
+  margin-top: 5%;
+  background: rgba(221, 214, 213, 0.3);
+  display: flex;
+  padding-bottom: 5%;
+}
+.offer .offer-bg {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+.offer .offer-bg .offer-title {
+  color: #465867;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.offer .offer-bg .offer-box-flex {
+  display: flex;
+}
+.offer .offer-bg .offer-box-flex .offer-box {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  width: 50%;
+  margin: 0 3% 3% 0;
+}
+.offer .offer-bg .offer-box-flex .offer-box .number {
+  color: #FF5635;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  padding: 4% 6%;
+}
+.offer .offer-bg .offer-box-flex .offer-box .number .line {
+  border-top: 2px solid;
+  width: 80%;
+  stroke-width: 2px;
+  margin: auto;
+}
+.offer .offer-bg .offer-box-flex .offer-box .number .circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid;
+  stroke-width: 2px;
+  margin: auto;
+}
+.offer .offer-bg .offer-box-flex .offer-box .offer-box-title {
+  color: #465867;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0 6% 0 6%;
+}
+.offer .offer-bg .offer-box-flex .offer-box ol {
+  color: #465867;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0 5% 5% 10%;
+}
+
+.who-trusted-us {
+  overflow: hidden;
+  margin: 7% 0 0 0;
+}
+.who-trusted-us .who-trusted-us-title {
+  color: #465867;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.who-trusted-us .who-trusted-us-boxes {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.who-trusted-us .who-trusted-us-boxes .who-trusted-us-box {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+}
+.who-trusted-us .who-trusted-us-boxes .who-trusted-us-box img {
+  height: 65px;
+  margin: auto;
+}
+
+.working-area {
+  background: rgba(221, 214, 213, 0.3);
+  padding: 5% 0;
+}
+.working-area .working-area-title {
+  color: #465867;
+  font-size: 30px;
+  font-weight: 700;
+  width: 75%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+.working-area .working-area-boxes {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.working-area .working-area-boxes .working-area-box {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex: 1 1 0px;
+  padding: 11px 30px;
+  margin: 0 2.5%;
+}
+.working-area .working-area-boxes .working-area-box img {
+  margin: auto;
+  padding: 0 10px 0 0;
+}
+.working-area .working-area-boxes .working-area-box .working-area-box-text {
+  color: #465867;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.why-it-is-worth .why-it-is-worth-text {
+  color: #465867;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.why-it-is-worth .why-it-is-worth-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.why-it-is-worth .why-it-is-worth-row-text {
+  color: #465867;
+  font-size: 16px;
+  font-weight: 700;
+  width: 320px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  font-family: "Encode Sans", sans-serif;
+}

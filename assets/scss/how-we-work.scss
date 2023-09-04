@@ -1,0 +1,41 @@
+.how-we-work {
+    display: flex;
+    margin-top: 10%;
+    color: #465867;
+
+    img{
+        width: 40%;
+        margin: auto;
+        border-radius: 55% 5% 5% 5%;
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+
+    .how-we-work-text {
+        margin: auto;
+        width: 40%;
+        padding-top: 10px;
+
+        .how-we-work-title {
+            font-size: 30px;
+            font-weight: 700;
+            padding: 0 0 10px 6px;
+        }
+
+        li {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 30px; 
+            list-style-image: url(../images/check.svg);
+
+            &::marker {
+                margin-top: 100px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}

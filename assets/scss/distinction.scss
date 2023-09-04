@@ -1,0 +1,30 @@
+.distinction {
+    background: rgba(221, 214, 213, 0.30);
+    color: #465867;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+
+    .distinction-text {
+        padding: 3% 0 3% 6%;
+        width: 40%;
+
+        .distinction-title {
+            padding: 0 0 15px 0;
+        }
+
+        .distinction-about {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 30px; 
+        }
+    }
+
+    img {
+        width: 40%;
+        margin: auto;
+        margin-top: -7px;
+        margin-bottom: -12px;
+        border-radius: 55% 5% 5% 5%;
+    }
+}

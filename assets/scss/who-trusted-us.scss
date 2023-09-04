@@ -1,0 +1,37 @@
+.who-trusted-us {
+    overflow: hidden;
+    margin: 7% 0 0 0;
+
+    .who-trusted-us-title {
+        color: #465867;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+      }
+
+      .who-trusted-us-boxes {
+        text-align: center;
+        
+        margin-bottom: 5%;
+        
+
+
+        .who-trusted-us-box {
+            border-radius: 10px;
+            background: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            margin: 30px;
+            text-align: center;
+
+            img{
+                
+                height: 65px;
+                margin: auto;
+              }
+          }
+      }
+  }
+
+ 
