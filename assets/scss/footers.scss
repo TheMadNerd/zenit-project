@@ -1,0 +1,35 @@
+.footer {
+    background: #1A1A1A;
+    color: #FFF;
+    padding: 70px;
+    width: 100%;
+
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+
+    .image {
+        padding: 0px;
+        margin-right: 15px;
+    }
+
+    .text {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0;
+
+        .title {
+            margin-bottom: 20px;
+        }
+
+        .paragraph-text {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px; /* 185.714% */
+        }
+
+        p {
+            font-size: 12px; 
+        }
+    }
+        
+}

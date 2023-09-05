@@ -1,0 +1,88 @@
+.questions-and-contact {
+    margin-bottom: 60px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.contact {
+    border-radius: 10px;
+    border: 1px solid rgba(102, 180, 22, 0.30);
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 24px;
+
+    .contact-title {
+        color: #465867;
+        font-size: 24px;
+        font-weight: 400;
+
+        margin: 27px 0px 43px 12px;
+    }
+
+    form{
+        margin: 0 37px 0 33px;
+
+        .info-area {
+            color: #465867;         
+            font-size: 16px;           
+            font-weight: 400;
+            
+        }
+
+        
+        .write-area{
+            justify-content: center;
+
+            border-radius: 10px;
+            border: 1px solid rgba(221, 214, 213, 0.30);
+            background: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+            height: 40px;
+
+            margin: 12px 0 34px 0;
+   
+            
+        }
+
+        input::placeholder {
+            color: rgba(70, 88, 103, 0.50);
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 30px; /* 214.286% */
+        }
+
+        textarea {
+            resize: none;
+            height: 103px !important;
+
+            &::placeholder {
+                color: rgba(70, 88, 103, 0.50);
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 30px; /* 214.286% */
+            }
+        }
+
+        .button {
+            border-radius: 10px;
+            background: #FF5635;
+            border: none;
+
+            color: #FFF;
+            text-align: center;         
+            font-size: 16px;          
+            font-weight: 400;           
+
+            display: flex;
+            width: 100px;
+            padding: 10px 71px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            float: right;
+
+            margin-bottom: 45px;
+
+        }
+    }
+}

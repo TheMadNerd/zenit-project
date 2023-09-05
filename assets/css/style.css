@@ -317,26 +317,201 @@
   text-align: center;
 }
 
-.why-it-is-worth .why-it-is-worth-text {
-  color: #465867;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
+.why-it-is-worth {
+  margin-bottom: 160px;
 }
-.why-it-is-worth .why-it-is-worth-text p {
-  font-size: 16px;
-  font-weight: 400;
-}
-.why-it-is-worth .why-it-is-worth-row-text {
-  color: #465867;
-  font-size: 16px;
-  font-weight: 700;
-  width: 320px;
-  height: 70px;
-  flex-shrink: 0;
+.why-it-is-worth .box {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  margin: 15px -30px;
+}
+.why-it-is-worth .box img {
+  margin-right: 15px;
+}
+.why-it-is-worth .invisibility {
+  margin: 15px -30px;
+}
+
+.text-type {
+  color: #465867;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 150px;
+}
+.text-type p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.questions {
+  margin: 0 24px;
+}
+.questions .questions-text {
+  color: #465867;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.questions .questions-text p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px; /* 187.5% */
+  margin-bottom: 92px;
+  margin-top: 14px;
+}
+.questions .questions-box {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 17px 20px 17px 20px;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+.questions .questions-box img {
+  padding: 0 15px 0 0;
+  height: 45px;
+  width: 45px;
+}
+.questions .questions-box .title {
+  color: #465867;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0px 0px 0px 15px;
+}
+.questions .questions-box .text {
+  color: #465867;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px; /* 185.714% */
+}
+
+.questions-and-contact {
+  margin-bottom: 60px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.contact {
+  border-radius: 10px;
+  border: 1px solid rgba(102, 180, 22, 0.3);
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  margin: 0 24px;
+}
+.contact .contact-title {
+  color: #465867;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 27px 0px 43px 12px;
+}
+.contact form {
+  margin: 0 37px 0 33px;
+}
+.contact form .info-area {
+  color: #465867;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact form .write-area {
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(221, 214, 213, 0.3);
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  height: 40px;
+  margin: 12px 0 34px 0;
+}
+.contact form input::placeholder {
+  color: rgba(70, 88, 103, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+}
+.contact form textarea {
+  resize: none;
+  height: 103px !important;
+}
+.contact form textarea::placeholder {
+  color: rgba(70, 88, 103, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
+}
+.contact form .button {
+  border-radius: 10px;
+  background: #FF5635;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  width: 100px;
+  padding: 10px 71px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  float: right;
+  margin-bottom: 45px;
+}
+
+.map {
+  margin: auto;
+  margin-bottom: 149px;
+}
+.map iframe {
+  height: 450px;
+  width: 100%;
+  border-radius: 20px;
+  background: lightgray 50%/cover no-repeat;
+}
+
+.footer {
+  background: #1A1A1A;
+  color: #FFF;
+  padding: 70px;
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.footer .image {
+  padding: 0px;
+  margin-right: 15px;
+}
+.footer .text {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+}
+.footer .text .title {
+  margin-bottom: 20px;
+}
+.footer .text .paragraph-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px; /* 185.714% */
+}
+.footer .text p {
+  font-size: 12px;
+}
+
+.copyright {
+  padding: 20px;
+  background: #465867;
+  color: #FFF;
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.copyright .text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px; /* 214.286% */
 }
 
 * {
