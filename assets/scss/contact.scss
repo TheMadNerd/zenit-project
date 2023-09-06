@@ -14,9 +14,9 @@
     .contact-title {
         color: #465867;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 700;
 
-        margin: 27px 0px 43px 12px;
+        margin: 20px 20px 21px 12px;
     }
 
     form{
@@ -25,8 +25,9 @@
         .info-area {
             color: #465867;         
             font-size: 16px;           
-            font-weight: 400;
-            
+            font-weight: 700;
+            margin: 20px 0 12px 0;
+            padding: 0 !important;
         }
 
         
@@ -39,7 +40,6 @@
             box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
             height: 40px;
 
-            margin: 12px 0 34px 0;
    
             
         }
@@ -71,17 +71,17 @@
             color: #FFF;
             text-align: center;         
             font-size: 16px;          
-            font-weight: 400;           
+            font-weight: 700;           
 
             display: flex;
             width: 100px;
-            padding: 10px 71px;
+            padding: 10px 50px;
             justify-content: center;
             align-items: center;
             gap: 20px;
             float: right;
 
-            margin-bottom: 45px;
+            margin: 33px 0 45px 0;
 
         }
     }

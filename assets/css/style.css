@@ -282,6 +282,9 @@
   background: rgba(221, 214, 213, 0.3);
   padding: 60px 0;
 }
+.container-extra .margin-mid {
+  margin: 0 100px;
+}
 .container-extra .text {
   color: #465867;
   font-family: Encode Sans;
@@ -295,33 +298,39 @@
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  padding: 11px 30px 11px 30px;
+  padding: 11px 0 11px 30px;
 }
 .container-extra .box img {
-  max-height: 100px;
-  min-height: 64px;
-  min-width: 58px;
+  height: auto;
+  width: 20%;
+  min-height: 50px;
 }
 .container-extra .box .box-text {
   color: #465867;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 30px; /* 187.5% */
   align-self: center;
 }
 
 .why-it-is-worth {
-  margin-bottom: 160px;
+  margin: 0 35px 160px 35px !important;
 }
 .why-it-is-worth .box {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  padding: 12px;
-  margin: 15px -30px;
+  height: 70px;
+  margin: 15px;
+  color: #465867;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
 }
 .why-it-is-worth .box img {
-  margin-right: 15px;
+  height: 45px;
+  width: 45px;
+  align-self: center;
 }
 .why-it-is-worth .invisibility {
   margin: 15px -30px;
@@ -330,29 +339,31 @@
 .text-type {
   color: #465867;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 150px;
 }
 .text-type p {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .questions {
-  margin: 0 24px;
+  margin: 0 40px 0 50px;
 }
 .questions .questions-text {
   color: #465867;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 14px;
+  max-width: 606px;
 }
 .questions .questions-text p {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 30px; /* 187.5% */
   margin-bottom: 92px;
   margin-top: 14px;
+  padding: 1px;
 }
 .questions .questions-box {
   border-radius: 10px;
@@ -360,26 +371,24 @@
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   padding: 17px 20px 17px 20px;
   align-items: center;
-  margin: 0 0 30px 0;
 }
 .questions .questions-box img {
-  padding: 0 15px 0 0;
   height: 45px;
   width: 45px;
+  padding: 0 !important;
 }
 .questions .questions-box .title {
   color: #465867;
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   text-align: left;
-  padding: 0px 0px 0px 15px;
 }
 .questions .questions-box .text {
   color: #465867;
   text-align: center;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 26px; /* 185.714% */
 }
 
@@ -399,8 +408,8 @@
 .contact .contact-title {
   color: #465867;
   font-size: 24px;
-  font-weight: 400;
-  margin: 27px 0px 43px 12px;
+  font-weight: 700;
+  margin: 20px 20px 21px 12px;
 }
 .contact form {
   margin: 0 37px 0 33px;
@@ -408,7 +417,9 @@
 .contact form .info-area {
   color: #465867;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
+  margin: 20px 0 12px 0;
+  padding: 0 !important;
 }
 .contact form .write-area {
   justify-content: center;
@@ -417,7 +428,6 @@
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   height: 40px;
-  margin: 12px 0 34px 0;
 }
 .contact form input::placeholder {
   color: rgba(70, 88, 103, 0.5);
@@ -442,15 +452,15 @@
   color: #FFF;
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   display: flex;
   width: 100px;
-  padding: 10px 71px;
+  padding: 10px 50px;
   justify-content: center;
   align-items: center;
   gap: 20px;
   float: right;
-  margin-bottom: 45px;
+  margin: 33px 0 45px 0;
 }
 
 .map {

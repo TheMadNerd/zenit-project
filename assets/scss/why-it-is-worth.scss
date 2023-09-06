@@ -1,16 +1,24 @@
 .why-it-is-worth {
-    margin-bottom: 160px;
+    margin: 0 35px 160px 35px !important;
 
 
     .box {
         border-radius: 10px;
         background: #FFF;
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-        padding: 12px;
-        margin: 15px -30px;
+        height: 70px;
+       
+        margin: 15px;
+
+        color: #465867;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px; /* 187.5% */
 
         img {
-            margin-right: 15px;
+            height: 45px;
+            width: 45px;
+            align-self: center;
         }
     }
 
@@ -24,13 +32,13 @@
 .text-type {
     color: #465867;
     font-size: 30px;
-    font-weight: 400;  
+    font-weight: 700;  
 
     margin-top: 150px;
     
     p {          
         font-size: 16px;          
-        font-weight: 300;
+        font-weight: 400;
     }
 }
 
