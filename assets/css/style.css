@@ -278,43 +278,36 @@
   margin: auto;
 }
 
-.working-area {
+.container-extra {
   background: rgba(221, 214, 213, 0.3);
-  padding: 5% 0;
+  padding: 60px 0;
 }
-.working-area .working-area-title {
+.container-extra .text {
   color: #465867;
+  font-family: Encode Sans;
   font-size: 30px;
+  font-style: normal;
   font-weight: 700;
-  width: 75%;
-  margin: auto;
-  padding-bottom: 3%;
+  line-height: normal;
+  margin: 0 0 26px 0;
 }
-.working-area .working-area-boxes {
-  display: flex;
-  margin: auto;
-  flex-wrap: wrap;
-}
-.working-area .working-area-boxes .working-area-box {
+.container-extra .box {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex: 1 1 0px;
-  padding: 11px 30px;
-  margin: 0 2.5%;
+  padding: 11px 30px 11px 30px;
 }
-.working-area .working-area-boxes .working-area-box img {
-  margin: auto;
-  padding: 0 10px 0 0;
+.container-extra .box img {
+  max-height: 100px;
+  min-height: 64px;
+  min-width: 58px;
 }
-.working-area .working-area-boxes .working-area-box .working-area-box-text {
+.container-extra .box .box-text {
   color: #465867;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  margin: auto;
-  text-align: center;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  align-self: center;
 }
 
 .why-it-is-worth {
