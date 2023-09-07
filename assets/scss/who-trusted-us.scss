@@ -1,6 +1,6 @@
 .who-trusted-us {
     overflow: hidden;
-    margin: 7% 0 0 0;
+    margin: 7% 0 160px 0;
 
     .who-trusted-us-title {
         color: #465867;
@@ -10,28 +10,37 @@
         margin-bottom: 25px;
       }
 
-      .who-trusted-us-boxes {
-        text-align: center;
+    
+.js-slider {
+
+
+    .slick-slide {
+        margin: 5px 15px;
+        min-height: 80px;
         
-        margin-bottom: 5%;
+    }
+
+    
+
+      
         
+        
+         
+            .who-trusted-us-box {
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+                text-align: center;
+                display: flex;
 
+                img {
+                    align-self: center;
+                    margin: auto;
+                }
+        }
+}
+    
 
-        .who-trusted-us-box {
-            border-radius: 10px;
-            background: #FFF;
-            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-            padding: 20px;
-            margin: 30px;
-            text-align: center;
-
-            img{
-                
-                height: 65px;
-                margin: auto;
-              }
-          }
-      }
+       
   }
 
- 
