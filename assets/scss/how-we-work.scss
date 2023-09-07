@@ -1,41 +1,37 @@
 .how-we-work {
-    display: flex;
-    margin-top: 10%;
-    color: #465867;
+    margin: 160px 0;
 
     img{
-        width: 40%;
-        margin: auto;
+       
         border-radius: 55% 5% 5% 5%;
-        margin-top: 0;
-        margin-bottom: 2%;
+        width: 100%;
     }
 
-    .how-we-work-text {
-        margin: auto;
-        width: 40%;
-        padding-top: 10px;
+    .title {
+        color: #465867;
+        font-size: 30px;
+        font-weight: 700;
+    }
 
-        .how-we-work-title {
-            font-size: 30px;
-            font-weight: 700;
-            padding: 0 0 10px 6px;
-        }
+    ul {
 
         li {
+            color: #465867;
             font-size: 16px;
             font-weight: 700;
-            line-height: 30px; 
-            list-style-image: url(../images/check.svg);
+            line-height: 30px; /* 187.5% */
 
-            &::marker {
-                margin-top: 100px;
+            width: 515px;
+            list-style: url(../../images/ok.svg);
+    
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px; /* 187.5% */
             }
         }
-
-        p {
-            font-size: 16px;
-            font-weight: 300;
-        }
     }
+    
+
+    
 }
