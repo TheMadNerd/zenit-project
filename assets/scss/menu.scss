@@ -1,38 +1,27 @@
 .menu {
-    padding: 21px 0 19px 24px;
-    display: flex;
+    margin: 20px 0;
 
-    .menu-left {
-        float: left;
-        display: flex;
+    img {
+        margin: 0 15px;
     }
 
-    .menu-right {
-        float: right;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 5% 0 0;
-        margin-left: auto;
+    .menu-text {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: end;
 
-        .menu-right-buttons {
-            float: left;
+        a {
+            text-decoration: none;
+            color: #465867;
 
-            a {
-                padding: 0 30px 0 0;
-                color: #465867;
-                font-size: 12px;
-                font-weight: 700;
-                line-height: normal;
-                text-decoration: none;
+            &:hover {
+                color: #C10037;
+                transition: 0.3s;
             }
         }
 
-        .menu-right-media {
-            float: left;
-            display: flex;
+        .socials {
+            margin: 0 15px;
         }
     }
-
-
 }

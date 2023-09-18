@@ -29,6 +29,18 @@
 
         p {
             font-size: 12px; 
+
+            a {
+                transition: 0.4s;
+                text-decoration: none;
+                color: #FFF;
+                &:hover {
+                    transition: 0.4s;
+                    color: #FF5635;
+                }
+            }
+
+            
         }
     }
         

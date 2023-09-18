@@ -10,95 +10,121 @@
     <link rel="stylesheet" type="text/css" href="node_modules/slick-1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body style="margin: 0;">
+<body style="margin: 0; overflow-x: hidden;">
 
-    <div class="menu">
-       <div class="menu-left">
-        <img src="images/logo.svg" alt="logo">
-       </div> 
-       <div class="menu-right">
-        <div class="menu-right-buttons">
-            <a href="">Strona główna</a>
-            <a href="">O nas</a>
-            <a href="">Oferta</a>
-            <a href="">Kontakt</a>
-        </div>
-        <div class="menu-right-media">
-            <img src="images/facebook_logo.svg" alt="facebook_logo">
-        </div>
-       </div>
-    </div>
-
-    <div class="big-images">
-        <div class="geodesy">
-            <div class="geodesy-text">
-                <div class="geodesy-text-title">Geodezja</div> 
-                <a href="">Dowiedz się więcej</a>
+    <div class="menu container-fluid">
+        <div class="row ">
+            <div class="col-4">
+                <img src="./images/logo.svg" alt="logo">
             </div>
-            <img class="shadow-image" src="images/geodesy.jpg" alt="geodesy">
-        </div>
-        <div class="estate">
-            <div class="geodesy-text">
-                <div class="geodesy-text-title">Nieruchomości</div> 
-                <a href="">Sprawdź naszą ofertę</a>
+            <div class="menu-text col-8 align-self-center">
+                <a class="col-2" href="index.html">Strona główna</a>
+                <a class="col-2" href="">O nas</a>
+                <a class="col-2" href="">Oferta</a>
+                <a class="col-2" href="">Kontakt</a>
+                <a class="socials col-4" href=""><img src="./images/facebook_logo.svg" alt="fb"></a>
             </div>
-            <img class="shadow-image" src="images/estate.jpg" alt=""> 
+        </div>
+       
+    </div>
+
+    <div class="big-images container-fluid">
+        <div class="row text-center">
+            <div class="col-md-6 col-12 geodesy p-0">
+                <div class="text-area col-12">
+                    <div class="text">Geodezja</div>
+                    <button>
+                        <div class="button-text ">Dowiedz się więcej</div>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 estate p-0">
+                <div class="text-area col-12">
+                    <div class="text">Nieruchomości</div>
+                    <button>
+                        <div class="button-text">Sprawdź naszą ofertę</div>
+                    </button>
+                </div>  
+            </div>
         </div>
     </div>
 
-    <div class="about-us">
-        <div class="about-us-title">
-            O Nas
-        </div>
-        <div class="about-us-text">
-            Jesteśmy zespołem specjalizującym się w usługach geodezyjnych oraz pośrednictwa w obrocie nieruchomościami dla
-            klientów indywidualnych, firm oraz instytucji na terenie Polski południowej.
+    <div class="about-us container-fluid">
+        <div class="row justify-content-center">
+            <div class="about-us-title col-12">
+                O Nas
+            </div>
+            <div class="about-us-text col-12">
+                Jesteśmy zespołem specjalizującym się w usługach geodezyjnych oraz pośrednictwa w obrocie nieruchomościami dla
+                klientów indywidualnych, firm oraz instytucji na terenie Polski południowej.
+            </div>
         </div>
     </div>
 
-    <div class="distinction">
-    <div class="distinction-text"> 
-        <div class="distinction-title">
-            Co nas wyróżnia
-        </div>
-        <div class="distinction-about">
-            Wieloletnie doświadczenie zawodowe, rzetelne podejście do klienta, a także wysoka jakość techniczna naszych usług oraz konkurencyjne ceny.<br><br>
+    <div class="distinction container-fluid">
+        <div class="row justify-content-center">
+            <div class="text col-xl-5 text-xl-left  text-center mb-xl-0 mb-4">
+                Co nas wyróżnia?
+                <p>
+                    Wieloletnie doświadczenie zawodowe, rzetelne podejście do klienta, a także wysoka jakość techniczna naszych usług oraz konkurencyjne ceny.
+                    <br><br>
+                    Rozmiar i rodzaj inwestycji nie ma dla nas żadnego znaczenia. Obsługujemy zatem zarówno zlecenia dotyczące niedużych działek i obsługę budowy domów jednorodzinnych, jak i duże projekty związane np. z budową budynków wielorodzinnych, budową dróg, budową sieci uzbrojenia naziemnego i podziemnego itp., jednocześnie sporządzając
+                    różnorodne, specjalistyczne dokumenty.
+                </p>
+            </div>
 
-            Rozmiar i rodzaj inwestycji nie ma dla nas żadnego znaczenia. Obsługujemy zatem zarówno zlecenia dotyczące niedużych działek i obsługę budowy domów jednorodzinnych, jak i duże projekty związane np. z budową budynków wielorodzinnych, budową dróg, budową sieci uzbrojenia naziemnego i podziemnego itp., jednocześnie sporządzając
-            różnorodne, specjalistyczne dokumenty.
+            <div class="col-xl-5 col-sm-8 col-10">
+                <img src="images/atrex.png" alt="atrex">
+            </div>
+
         </div>
-        </div>
-        <img src="images/atrex-cut.jpg" alt="atrex">
     </div>
 
     <div class="how-we-work">
         <div class="container-fluid">
-            <div class="row justify-content-around">
-                <div class="col-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-sm-8 img-container">
                     <img src="images/radar.png" alt="radar">
                 </div>
-               <div class="row col-6">
-                    <div class="title">Jak pracujemy?</div>
-                    <ul>
-                        <li>
-                            Wykfalifikowana kadra
+               <div class="check-points row col-lg-5 p-0">
+                    <div class="title mt-lg-0 mt-4">Jak pracujemy?</div>
+                    <div class="row col-12 justify-content-between pr-0">
+                        <div class="col-1">
+                            <img src="images/ok.svg" alt="ok">
+                        </div>
+                        <div class="col-sm-11 col-10">
+                            <span>
+                                Wykfalifikowana kadra
                                 <p>
                                     Nasza firmę tworzy zespół doświadczonych, wykwalifikowanych specjalistów, których wyróżnia doskonałe przygotowanie merytoryczne, zaangażowanie, rzetelność oraz terminowość.
                                 </p>
-                        </li>
-                        <li>
-                            Wysoka jakość
+                            </span>
+                        </div>
+
+                        <div class="col-1 ">
+                            <img src="images/ok.svg" alt="ok">
+                        </div>
+                        <div class="col-sm-11 col-10">
+                            <span>
+                                Wysoka jakość
                                 <p>
                                     Wysoka jakość pracy geodetów przekłada się na poziom obsługi, jaki cenią sobie wszyscy klienci, współpracujący z naszą firmą.
                                 </p>
-                        </li>
-                        <li>
-                            Dokładność wykonywanych pomiarów
+                            </span>
+                        </div>
+
+                        <div class="col-1 ">
+                            <img src="images/ok.svg" alt="ok">
+                        </div>
+                        <div class="col-sm-11 col-10">
+                            <span>
+                                Dokładność wykonywanych pomiarów
                                 <p>
                                     Nasza firma wykorzystuje podczas wykonywania pomiarów innowacyjny, precyzyjny sprzęt wynikiem czego nasze prace realizowane są z wysoką dokładnością oraz w możliwie jak najkrótszym czasie.
                                 </p>
-                        </li>
-                    </ul>
+                            </span>
+                        </div>
+                    </div>
                </div>
 
             </div>
@@ -269,26 +295,32 @@
                 <div class="row ">
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="box ">
-                            <div class="row justify-content-lg-between justify-content-center m-0">
-                                <img class="col-lg-3 pr-2 pl-0" src="images/nowosądecki.svg" alt="powiat-sacz">
-                                    <div class="box-text text-center text-lg-left col-lg-9 col-12 ">Powiat Nowosądecki</div>
-                            </div>
+                            <a href="">
+                                <div class="row justify-content-lg-between justify-content-center m-0">
+                                    <img class="col-lg-3 pr-2 pl-0" src="images/nowosądecki.svg" alt="powiat-sacz">
+                                        <div class="box-text text-center text-lg-left col-lg-9 col-12 ">Powiat Nowosądecki</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="box text-left">
-                            <div class="row justify-content-lg-between justify-content-center m-0">
-                                <img class="col-lg-3 pr-2 pl-0" src="images/limanowski.png" alt="powiat-limanowa">
-                                <div class="box-text text-center text-lg-left col-lg-9 col-12">Powiat Limanowski</div>
-                            </div>
+                            <a href="">
+                                <div class="row justify-content-lg-between justify-content-center m-0">
+                                    <img class="col-lg-3 pr-2 pl-0" src="images/limanowski.png" alt="powiat-limanowa">
+                                    <div class="box-text text-center text-lg-left col-lg-9 col-12">Powiat Limanowski</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="box text-left">
-                            <div class="row justify-content-lg-between justify-content-center m-0">
-                                <img class="col-lg-3 pr-2 pl-0" src="images/gorlicki.png" alt="powiat-gorlicki">
-                                    <div class="box-text text-center text-lg-left col-lg-9 col-12">Powiat Gorlicki</div>
-                            </div>
+                            <a href="">
+                                <div class="row justify-content-lg-between justify-content-center m-0">
+                                    <img class="col-lg-3 pr-2 pl-0" src="images/gorlicki.png" alt="powiat-gorlicki">
+                                        <div class="box-text text-center text-lg-left col-lg-9 col-12">Powiat Gorlicki</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -476,29 +508,29 @@
                     <div class="title">O Nas</div>
                     <div class="ml-2">
                         <p>
-                            Strona główna
+                            <a href="">Strona główna</a>
                         </p>
                         <p>
-                            O nas
+                            <a href="">O nas</a>
                         </p>
                         <p>
-                            Oferta
+                            <a href="">Oferta</a>
                         </p>
                         <p>
-                            Kontakt
+                            <a href="">Kontakt</a>
                         </p>
                     </div>
                 </div>
                 <div class="text col-lg-3 col-sm-4 col-12 text-left mb-sm-0 mb-3">
                     <div class="title">Przydatne informacje</div>
                     <p>
-                        Polityka prywatności
+                        <a href="">Polityka prywatności</a>
                     </p>
                 </div>
                 <div class="text col-lg-3 col-sm-2 col-12 text-sm-left ">
                     <div class="title">Social media</div>
                     <p>
-                        <img src="./images/facebookv2.svg" alt="facebook">
+                        <a href=""><img src="./images/facebookv2.svg" alt="facebook"></a>
                     </p>
                 </div>
             </div>

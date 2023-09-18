@@ -1,113 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap");
 .menu {
-  padding: 21px 0 19px 24px;
-  display: flex;
+  margin: 20px 0;
 }
-.menu .menu-left {
-  float: left;
-  display: flex;
+.menu img {
+  margin: 0 15px;
 }
-.menu .menu-right {
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 5% 0 0;
-  margin-left: auto;
-}
-.menu .menu-right .menu-right-buttons {
-  float: left;
-}
-.menu .menu-right .menu-right-buttons a {
-  padding: 0 30px 0 0;
-  color: #465867;
+.menu .menu-text {
   font-size: 12px;
   font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
+  text-align: end;
 }
-.menu .menu-right .menu-right-media {
-  float: left;
-  display: flex;
+.menu .menu-text a {
+  text-decoration: none;
+  color: #465867;
+}
+.menu .menu-text a:hover {
+  color: #C10037;
+  transition: 0.3s;
+}
+.menu .menu-text .socials {
+  margin: 0 15px;
 }
 
-.big-images {
-  display: flex;
-}
 .big-images .geodesy {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.big-images .geodesy img {
-  width: 100%;
-  filter: brightness(50%);
-  z-index: -1;
-}
-.big-images .geodesy .geodesy-text {
-  position: absolute;
-  align-self: center;
-  text-align: center;
-}
-.big-images .geodesy .geodesy-text .geodesy-text-title {
-  color: #FFF;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: normal;
-  padding: 0 0 22px 0;
-}
-.big-images .geodesy .geodesy-text a {
-  border-radius: 10px;
-  background: #FF5635;
-  color: #FFF;
-  text-align: center;
-  font-family: Encode Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-  padding: 10px 22px;
+  background-image: url(../../images/geodesy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  fill: rgba(0, 0, 0, 0.4);
 }
 .big-images .estate {
-  width: 50%;
-  float: right;
-  display: flex;
-  justify-content: center;
+  background-image: url(../../images/estate.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  fill: rgba(0, 0, 0, 0.4);
 }
-.big-images .estate img {
-  width: 100%;
-  object-fit: cover;
-  filter: brightness(50%);
-  z-index: -1;
+.big-images .text-area {
+  backdrop-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) brightness(50%);
+  padding: 240px 0 173px 0;
+  transition: 0.4s;
 }
-.big-images .estate .geodesy-text {
-  position: absolute;
-  align-self: center;
-  text-align: center;
+.big-images .text-area:hover {
+  backdrop-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) brightness(35%);
+  transition: 0.4s;
 }
-.big-images .estate .geodesy-text .geodesy-text-title {
+.big-images .text-area .text {
   color: #FFF;
   text-align: center;
   font-size: 40px;
-  font-weight: 400;
-  line-height: normal;
-  padding: 0 0 22px 0;
+  font-weight: 700;
+  margin-bottom: 22px;
 }
-.big-images .estate .geodesy-text a {
-  border-radius: 10px;
-  background: #FF5635;
+.big-images .text-area button {
   color: #FFF;
   text-align: center;
-  font-family: Encode Sans;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-  padding: 10px 22px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #FF5635;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-color: #FF5635;
+}
+.big-images .text-area button .button-text {
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin: -5px -8px;
+}
+.big-images .text-area button .button-text:hover {
+  transition: 0.4s;
+  backdrop-filter: brightness(60%);
 }
 
 .about-us {
@@ -125,10 +89,19 @@
 
 .distinction {
   background: rgba(221, 214, 213, 0.3);
+}
+.distinction .text {
   color: #465867;
   font-size: 30px;
   font-weight: 700;
-  display: flex;
+  padding: 0 30px;
+  margin: 54px 35px 0px 35px;
+}
+.distinction .text p {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
 }
 .distinction .distinction-text {
   padding: 3% 0 3% 6%;
@@ -143,37 +116,45 @@
   line-height: 30px;
 }
 .distinction img {
-  width: 40%;
-  margin: auto;
-  margin-top: -7px;
-  margin-bottom: -12px;
-  border-radius: 55% 5% 5% 5%;
+  margin: -10px 0;
+  max-width: 550px;
+  max-height: 450px;
+  width: 100%;
+  border-radius: 45% 5% 5% 5%;
 }
 
 .how-we-work {
   margin: 160px 0;
 }
-.how-we-work img {
-  border-radius: 55% 5% 5% 5%;
+.how-we-work .img-container {
+  margin: 0 30px;
+}
+.how-we-work .img-container img {
+  border-radius: 45% 5% 5% 5%;
   width: 100%;
 }
-.how-we-work .title {
+.how-we-work .check-points {
+  margin: 0 25px;
+}
+.how-we-work .check-points .title {
   color: #465867;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 28px;
+  margin-left: 18px;
 }
-.how-we-work ul li {
+.how-we-work .check-points img {
+  height: 28px;
+  width: 28px;
+}
+.how-we-work .check-points span {
   color: #465867;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px; /* 187.5% */
-  width: 515px;
-  list-style: url(../../images/ok.svg);
 }
-.how-we-work ul li p {
-  font-size: 16px;
+.how-we-work .check-points span p {
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
 }
 
 .offer {
@@ -251,7 +232,7 @@
   margin-bottom: 25px;
 }
 .who-trusted-us .js-slider .slick-slide {
-  margin: 5px 15px;
+  margin: 50px 15px;
   min-height: 80px;
 }
 .who-trusted-us .js-slider .who-trusted-us-box {
@@ -260,6 +241,16 @@
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   text-align: center;
   display: flex;
+}
+.who-trusted-us .js-slider .who-trusted-us-box:hover {
+  background: linear-gradient(to right, rgb(245, 243, 242) 50%, #FFF 50%) left;
+  background-size: 200% 100%;
+  transition: 0.4s;
+}
+.who-trusted-us .js-slider .who-trusted-us-box:not(:hover) {
+  background: linear-gradient(to left, #FFF 50%, rgb(245, 243, 242) 50%) right;
+  background-size: 200% 100%;
+  transition: 0.4s;
 }
 .who-trusted-us .js-slider .who-trusted-us-box img {
   align-self: center;
@@ -287,6 +278,15 @@
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   padding: 11px 30px 11px 30px;
+  transition: 0.4s;
+}
+.container-extra .box:hover {
+  transition: 0.4s;
+  background: none;
+  box-shadow: none;
+}
+.container-extra .box a {
+  text-decoration: none;
 }
 .container-extra .box img {
   height: auto;
@@ -437,7 +437,7 @@
 .contact form .button {
   border-radius: 10px;
   background: #FF5635;
-  border: none;
+  border: 1px solid;
   color: #FFF;
   text-align: center;
   font-size: 16px;
@@ -450,6 +450,13 @@
   gap: 20px;
   float: right;
   margin: 33px 0 45px 0;
+}
+.contact form .button:hover {
+  background-color: #FFF;
+  transition: 0.4s;
+  color: #9C2F19;
+  border-radius: 10px;
+  border: 1px solid;
 }
 
 .map {
@@ -489,6 +496,15 @@
 }
 .footer .text p {
   font-size: 12px;
+}
+.footer .text p a {
+  transition: 0.4s;
+  text-decoration: none;
+  color: #FFF;
+}
+.footer .text p a:hover {
+  transition: 0.4s;
+  color: #FF5635;
 }
 
 .copyright {

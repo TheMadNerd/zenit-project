@@ -1,88 +1,74 @@
 .big-images {
-    display: flex; 
 
     .geodesy {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-        img {
-            width: 100%;
-            filter: brightness(50%);
-            z-index: -1;
-        }
+        background-image:    url(../../images/geodesy.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
 
-        .geodesy-text {
-            position: absolute;  
-            align-self: center;
-            text-align: center;
+        fill: rgba(0, 0, 0, 0.40);
 
-            .geodesy-text-title {
-                color: #FFF;
-                text-align: center;
-                font-size: 40px;
-                font-weight: 400;
-                line-height: normal;
-                padding: 0 0 22px 0;
-            }
-
-            a{
-                border-radius: 10px;
-                background: #FF5635;
-                color: #FFF;
-                text-align: center;
-                font-family: Encode Sans;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                text-decoration: none;
-                padding: 10px 22px;
-            }
-        }
+       
+        
     }
 
     .estate {
-        width: 50%;
-        float: right;
-        display: flex;
-        justify-content: center;
+        background-image: url(../../images/estate.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
-        img {
-            width: 100%;
-            object-fit: cover;
-            filter: brightness(50%);
-            z-index: -1;
-        }
+        fill: rgba(0, 0, 0, 0.40);
+       
+    }
 
-        .geodesy-text {
-            position: absolute;  
-            align-self: center;
+    .text-area {
+        backdrop-filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))  brightness(50%);
+        padding: 240px 0 173px 0;
+        transition: 0.4s;
+            &:hover {
+                backdrop-filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))  brightness(35%);
+                transition: 0.4s;
+            }
+
+        .text {
+            color: #FFF;
             text-align: center;
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 22px;
+        }
+    
+        button {
+            color: #FFF;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 10px;
+           
+            background: #FF5635;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            
+            border-style: solid;
+            border-color: #FF5635;
 
-            .geodesy-text-title {
-                color: #FFF;
-                text-align: center;
-                font-size: 40px;
-                font-weight: 400;
-                line-height: normal;
-                padding: 0 0 22px 0;
-            }
-
-            a{
+            .button-text {
+                padding: 10px 25px;
                 border-radius: 10px;
-                background: #FF5635;
-                color: #FFF;
-                text-align: center;
-                font-family: Encode Sans;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                text-decoration: none;
-                padding: 10px 22px;
+                transition: 0.4s;
+                margin: -5px -8px;
+
+                &:hover {
+                    transition: 0.4s;
+                    backdrop-filter: brightness(60%);
+                }
             }
+
+                
+            
         }
     }
+
+   
 }
