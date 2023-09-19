@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <title>ZENIT</title>
+    <link rel="icon" type="image/x-icon" href="./images/Zenit-faicon.svg">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato%3Areguler%7CEncode%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin-ext&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3Areguler%7CEncode%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin-ext&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3Areguler%7CEncode%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin-ext&#038;display=swap" /></noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Encode+Sans%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&#038;ver=6.3.1&#038;family=Poppins:wght@400;500;600;700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Encode+Sans%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&#038;ver=6.3.1&#038;family=Poppins:wght@400;500;600;700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Encode+Sans%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&#038;ver=6.3.1&#038;family=Poppins:wght@400;500;600;700&#038;display=swap" /></noscript>
     <link rel="stylesheet" type="text/css" href="node_modules/slick-1.8.1/slick/slick.css"/>
@@ -14,17 +15,29 @@
 </head>
 <body style="margin: 0; overflow-x: hidden;">
 
-    <div class="menu container-fluid">
+    <div class="menu container-fluid" id="menu">
         <div class="row ">
             <div class="col-4">
                 <img src="./images/logo.svg" alt="logo">
             </div>
-            <div class="menu-text col-8 align-self-center">
-                <a class="col-2" href="index.html">Strona główna</a>
-                <a class="col-2" href="">O nas</a>
-                <a class="col-2" href="">Oferta</a>
-                <a class="col-2" href="">Kontakt</a>
-                <a class="socials col-4" href=""><img src="./images/facebook_logo.svg" alt="fb"></a>
+            <div class="menu-text col-8 align-self-center hide-mobile">
+                <a class="col-2 " href="index.html">Strona główna</a>
+                <a class="col-2 " href="">O nas</a>
+                <a class="col-2 " href="">Oferta</a>
+                <a class="col-2 " href="">Kontakt</a>
+                <a class="socials col-4 " href=""><img src="./images/facebook_logo.svg" alt="fb"></a>
+            </div>
+            <div class="show-mobile col-8 align-self-center text-right">
+                <button class="hamburger" id="menuButton">
+                    <div class="bar"></div>
+                </button>
+                <div class="mobile-nav-bar">
+                    <a href="index.html">Strona główna</a>
+                    <a href="">O nas</a>
+                    <a href="">Oferta</a>
+                    <a href="">Kontakt</a>
+                    <a href=""><img src="./images/facebook_logo.svg" alt="fb"></a>
+                </div>
             </div>
         </div>
        
