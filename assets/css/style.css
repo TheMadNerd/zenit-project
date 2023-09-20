@@ -223,10 +223,12 @@
 }
 .how-we-work .img-container {
   margin: 0 30px;
+  text-align: center;
 }
 .how-we-work .img-container img {
   border-radius: 45% 5% 5% 5%;
   width: 100%;
+  max-width: 550px;
 }
 .how-we-work .check-points {
   margin: 0 25px;
